@@ -37,7 +37,7 @@ def allskydust_map(l,b,d):
 	D=np.arange(0.0,6.2,0.2)
 	ebv=allskydustmap[1].data.field('EBV')
 	index2=np.where((L>l-0.3) & (L<l+0.3) & (B>b-0.3) & (B<b+0.3))[0]
-	EBV3=southerndust_sky(l,b,d)
+	EBV3=southernskydust_map(l,b,d)
 	if len(index2)==0:
 		EBV=np.nan
 	

@@ -10,3 +10,7 @@ we also obtain a 3D extinction map that covers the entire sky by combining the m
 The entire sky 3D extinction map can be downloading from 
 
 http://paperdata.china-vo.org/guo/dust/allskymap_EBV.fits
+
+The best-fit values of Ar from the SED fitting and the distances from Bailer-Jones et al. (2018) for over 17 million stars, is publicly available online
+
+http://paperdata.china-vo.org/guo/dust/SkyMapper_stellar_Ar.fits

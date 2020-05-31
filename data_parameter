@@ -1,0 +1,7 @@
+Coordinate location (“L” and “B”)
+Distance (“dis”)
+Reddening (“EBV”)
+Extinction in the r band (“Ar ”)
+The maximum-likelihood (“ χ2 ”)
+Corlors (“g_r”, “r_i”, “i_J”, “J_H”, “H_K ”, “K_W1” and “BP_RP ”)
+For the reddening “EBV” and “Ar ” in the dataset of “allskymap_EBV.fits” and “SkyMapperAr.fits”, the distance is from 0 to 6 kpc with a bin size of 0.2 kpc.

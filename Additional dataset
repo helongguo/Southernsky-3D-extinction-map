@@ -1,0 +1,11 @@
+Additional dataset 
+In this work, we have applied spectral energy distribution (SED) fitting to multi-band photometric data. We select 987,336 dwarfs of E(B − V )_SFD < 0.02 mag to build the stellar loci of dwarfs and 146,957 giants to build the stellar loci for giants.
+For each star, we create a stellar locus in seven color g − r, r − i, i − J, J − H, H − K_S , K_S − W1 and G_BP − G_RP.
+
+The dataset of the stellar loci of dwarfs can be download from 
+
+http://paperdata.china-vo.org/guo/dust/Dwarf_locus.fits
+
+The dataset of the stellar loci of giants can be download from 
+
+http://paperdata.china-vo.org/guo/dust/Giant_locus.fits

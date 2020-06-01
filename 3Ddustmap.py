@@ -9,7 +9,7 @@ def southernskydust_map(l,b,d):
 	L=guo2019[1].data.field('L')
 	B=guo2019[1].data.field('B')
 	D=np.arange(0.0,6.2,0.2)
-	Rr=3.407
+	Rr=2.685
 	Ar=guo2019[1].data.field('Ar')
 	index=np.where((L>l-0.3) & (L<l+0.3) & (B>b-0.3) & (B<b+0.3) )[0]
 	if len(index)==0 :

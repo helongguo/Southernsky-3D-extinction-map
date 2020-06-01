@@ -50,4 +50,24 @@ For the parameter of reddening “EBV” in the dataset, the distance is from 0 
 
 In the work of Guo et al.(2020), we also get a library of reference stellar loci. We have gave the description in the file of "Addition dataset"
 
+Here, we briefly introduce how to use our code to get the extinction value of a place.
+For example, if you want to get the extinction of a star at (L, B, DIS). After running our code， when you input southernskydust_map(L ,B ,DIS ), you will get a value in E(B - V) inferred from our southern sky 3D extinction map.
+
+southernskydust_map( 277.23 ,-8.64 ,4.9 )
+
+input:l,b,d,unit=[deg, kpc],d<=6.0,fram=galactic,output:E(B-V) 
+
+array([[0.16344043]])
+
+when you input allskydust_map(L ,B ,DIS ), you will get a value in E(B - V) inferred from our all sky 3D extinction map.
+
+allskydust_map(200.23   , 18.64   , 1.9 )
+
+input:l,b,d,unit=[deg,kpc],d<=6.0,fram=galactic,output:E(B-V)
+
+array([[0.03141569]])
+
+Please note tha， in our code, the location must be in galactic cooddinate (L,B) and in the unit of deg and the distance must be in unit of kpc. If you give a diatance larger than 6.0 kpc, you will get a value of nan.
+
+
 

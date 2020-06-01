@@ -1,4 +1,4 @@
-# 3D-extinction-map
+# Southern-3D-extinction-map
 Based on the multi-band photometry of SkyMapper Southern Survey, the Two Micron All Sky Survey and the Wide-Field Infrared Survey Explorer Survey, we have estimated values of the r-band extinction for∼ 19 million stars with the spectral energy distribution (SED) analysis. We present a three-dimensional (3D) extinction map of the southern sky.
 
 The best-fit values of Ar from the SED fitting and the distances from Bailer-Jones et al. (2018) for over 17 million stars, is publicly available online

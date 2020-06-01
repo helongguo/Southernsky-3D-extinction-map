@@ -48,6 +48,6 @@ http://paperdata.china-vo.org/guo/dust/allskymap_EBV.fits
 
 For the parameter of reddening “EBV” in the dataset, the distance is from 0 to 6 kpc with a bin size of 0.2 kpc.
 
-In the work of Guo et al.(2020), we also get a library of reference stellar loci. We have gave the description in the file of "Addition data"
+In the work of Guo et al.(2020), we also get a library of reference stellar loci. We have gave the description in the file of "Addition dataset"
 
 

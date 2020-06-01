@@ -67,7 +67,7 @@ input:l,b,d,unit=[deg,kpc],d<=6.0,fram=galactic,output:E(B-V)
 
 array([[0.03141569]])
 
-Please note tha， in our code, the location must be in galactic cooddinate (L,B) and in the unit of deg and the distance must be in unit of kpc. If you give a diatance larger than 6.0 kpc, you will get a value of nan.
+Please note that， in our code, the location must be in galactic cooddinate (L,B) and in the unit of deg and the distance (from the Sun) must be in unit of kpc. If you give a distance larger than 6.0 kpc, you will get a value of nan.
 
 
 

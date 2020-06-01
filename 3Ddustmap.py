@@ -26,7 +26,7 @@ def southernskydust_map(l,b,d):
 		f=interpolate.interp1d(D,EBV1,kind='zero')
 		EBV=f(d)/Rr
 	
-	print('input:l,b,d,unit=[deg,kpc],d<=5.8,fram=galactic,output:E(B-V)')
+	print('input:l,b,d,unit=[deg,kpc],d<=6.0,fram=galactic,output:E(B-V)')
 	return EBV
 
 

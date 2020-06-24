@@ -48,9 +48,7 @@ We have selected 987,336 dwarfs and 146,957 giants to construct the stellar loci
 The stellar loci for dwarfs and giant can respectively be download from: 
 
 http://paperdata.china-vo.org/guo/dust/Dwarf_locus.fits
-
 and
-
 http://paperdata.china-vo.org/guo/dust/Giant_locus.fits
 
 

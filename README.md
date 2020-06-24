@@ -2,14 +2,14 @@
 
 Based on the multi-band photometry of SkyMapper Southern Survey, Gaia DR2, the Two Micron All Sky Survey and the Wide-Field Infrared Survey Explorer Survey, we have estimated values of the r-band extinction for∼ 19 million stars with the spectral energy distribution (SED) analysis. Combined with the distances from the Gaia DR2 parallaxes, we have constructed a three-dimensional extinction map of the southern sky. The paper is now submitted to APJ. This repository shows how to download the data underlying the article and how to use our 3D extinction maps.
 
-If you have any questions or need more informations, please send emall to Bingqiu Chen (bchen@ynu.edu.cn) or Helong Guo (helong_guo@mail.ynu.edu.cn).
+If you have any questions or need more informations, please send emall to Bingqiu Chen (bchen@ynu.edu.cn) and Helong Guo (helong_guo@mail.ynu.edu.cn).
 
 
 ## Download the 3D extinction maps
 
 The full data of our 3D extinction maps of the southern sky can be download here：http://paperdata.china-vo.org/guo/dust/SkyMapperAr.fits
 
-The file contains a table. Each row of the table contains the extinction profile for one line of sight: Galactic coordinates l, b along with the extinction values at the individual distances A_{r,0 kpc} (defined as 0 mag), A_{r,0.2 kpc}, A_{r,0.2 kpc}, A_{r,0.4 kpc}, A_{r,0.6 kpc} ... A_{r,5.8 kpc}, A_{r,6.0 kpc} and respective uncertainties.
+The file contains a table. Each row of the table contains the extinction profile for one line of sight: Galactic coordinates l, b along with the extinction values at the individual distances A_{r,0 kpc} (defined as 0 mag), A_{r,0.2 kpc}, A_{r,0.4 kpc}, A_{r,0.6 kpc}, A_{r,0.8 kpc} ... A_{r,5.8 kpc}, A_{r,6.0 kpc} and respective uncertainties.
 
 ## Query the 3D extinction maps
 

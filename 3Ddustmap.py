@@ -27,7 +27,7 @@ def southernskydust_map(l,b,d):
 		EBV=f(d)/Rr
 	
 	print('input:l,b,d,unit=[deg,kpc],d<=6.0,fram=galactic,output:E(B-V)')
-	return EBV
+	return list(EBV[0])
 
 
 def allskydust_map(l,b,d):
@@ -56,7 +56,7 @@ def allskydust_map(l,b,d):
 		
 
 	
-	return EBV
+	return list(EBV[0])
 
 
 

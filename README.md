@@ -2,6 +2,8 @@
 
 Based on the multi-band photometry of SkyMapper Southern Survey, Gaia DR2, the Two Micron All Sky Survey and the Wide-Field Infrared Survey Explorer Survey, we have estimated values of the r-band extinction for∼ 19 million stars with the spectral energy distribution (SED) analysis. Combined with the distances from the Gaia DR2 parallaxes, we have constructed a three-dimensional extinction map of the southern sky. The paper is now submitted to APJ. This repository shows how to download the data underlying the article and how to use our 3D extinction maps.
 
+For more information, please send emall to B.-Q. Chen (bchen@ynu.edu.cn; BQC) or H.-L. Guo (helong_guo@mail.ynu.edu.cn; HLG) 
+
 ## Download the 3D extinction maps
 
 The full data of our 3D extinction maps of the southern sky can be download here：http://paperdata.china-vo.org/guo/dust/SkyMapperAr.fits

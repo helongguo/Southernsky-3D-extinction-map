@@ -46,7 +46,6 @@ The function 'allskydust_map' in the procedure '3Ddustmap.py' can be used to ret
 ### The stellar loci
 We have selected 987,336 dwarfs and 146,957 giants to construct the stellar loci of dwarfs and giants, respectively.
 The stellar loci for dwarfs and giant can respectively be download from: 
-
 http://paperdata.china-vo.org/guo/dust/Dwarf_locus.fits
 and
 http://paperdata.china-vo.org/guo/dust/Giant_locus.fits

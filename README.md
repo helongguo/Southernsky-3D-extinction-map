@@ -17,7 +17,7 @@ The repository contains a simple PYTHON3 procedure '3Ddustmap.py', which can be 
 
 For example, if one want to obtain the extinction of a star at Galactic coordinates l = 300 deg, b = -15 deg and distance of 2.5 kpc:
 ```
-import 3Ddustmap as dm
+import dustmap_3D as dm
 l, b, d = 300.0, -15.0, 2.5
 ebv = dm.southernskydust_map(l,b,d) 
 

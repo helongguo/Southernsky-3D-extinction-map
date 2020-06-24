@@ -39,7 +39,7 @@ For each star, we provide its Galactic Coordinate (“l” and “b”), distanc
 
 The All-sky extinction maps, which combine our 3D extinction maps in the southern sky and those from the literature can be download here: http://paperdata.china-vo.org/guo/dust/allskymap_EBV.fits
 
-Similar as the 3D extinction maps in the souther sky, the file contains a table. Each row of the table contains the extinction profile for one line of sight: Galactic coordinates l, b along with the reddening values at the individual distances E(B-V)_{0 kpc} (defined as 0 mag), E(B-V)_{0.2 kpc}, E(B-V)_{0.4 kpc}, E(B-V)_{0.6 kpc} ... E(B-V)_{5.8 kpc}, E(B-V)_{6.0 kpc} and respective uncertainties.
+Similar as the 3D extinction maps in the souther sky, the file contains a table. Each row of the table contains the extinction profile for one line of sight: Galactic coordinates l, b along with the reddening values at the individual distances E(B-V)_{0 kpc} (defined as 0 mag), E(B-V)_{0.2 kpc}, E(B-V)_{0.4 kpc}, E(B-V)_{0.6 kpc} ... E(B-V)_{5.8 kpc}, E(B-V)_{6.0 kpc}.
 
 The function 'allskydust_map' in the procedure '3Ddustmap.py' can be used to return E(B-V) value for a given 3D position (l, b and d).
 

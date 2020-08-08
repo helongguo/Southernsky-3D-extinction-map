@@ -18,7 +18,7 @@ def southernskydust_map(l,b,d):
 		l0=L[index]
 		b0=B[index]
 		ebv0=Ar[index]
-		dismin=(l0-l)**2+(b0*np.cos(np.radians(b0))-b*np.cos(np.radians(b)))**2
+		dismin=(b0-b)**2+(l0*np.cos(np.radians(b0))-l*np.cos(np.radians(b)))**2
 		index1=np.where(dismin==np.min(dismin))
 		l=l0[index1]
 		b=b0[index1]

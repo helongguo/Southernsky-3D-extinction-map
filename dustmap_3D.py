@@ -27,7 +27,7 @@ def southernskydust_map(l,b,d):
 		EBV=f(d)/Rr
 	
 	print('input:l,b,d,unit=[deg,kpc],d<=6.0,fram=galactic,output:E(B-V)')
-	return list(EBV[0])
+	return EBV[0][0]
 
 
 def allskydust_map(l,b,d):
@@ -37,7 +37,7 @@ def allskydust_map(l,b,d):
 	D=np.arange(0.0,6.2,0.2)
 	ebv=allskydustmap[1].data.field('EBV')
 	index2=np.where((L>l-0.3) & (L<l+0.3) & (B>b-0.3) & (B<b+0.3))[0]
-	EBV3=southernskydust_map(l,b,d)
+	
 	if len(index2)==0:
 		EBV=np.nan
 	
@@ -55,8 +55,8 @@ def allskydust_map(l,b,d):
 		EBV=f(d)
 		
 
-	
-	return list(EBV[0])
+	print('input:l,b,d,unit=[deg,kpc],d<=6.0,fram=galactic,output:E(B-V)')
+	return EBV[0][0]
 
 
 

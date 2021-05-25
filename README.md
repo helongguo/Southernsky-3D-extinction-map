@@ -41,8 +41,6 @@ The file 'allskymap_EBV.fits' is an all-sky extinction maps, which combine our 3
 
 The function 'allskydust_map' in the procedure '3Ddustmap.py' can be used to return E(B-V) value for a given 3D position (l, b and d).
 
-The function 'allskydust_map' in the procedure '3Ddustmap.py' can be used to return E(B-V) value for a given 3D position (l, b and d).
-
 ### The stellar loci
 The files 'Dwarf_locus.fits' and 'Giant_locus.fits' are the selected 987,336 dwarfs and 146,957 giants which are adopted to construct the stellar loci of dwarfs and giants, respectively.
 

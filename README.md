@@ -9,7 +9,7 @@ If you have any questions or need more informations, please send emall to Bingqi
 
 The full data of our 3D extinction maps of the southern sky can be download here：https://doi.org/10.12149/101032
 
-The file 'SkyMapper_stellar_Ar.fits' is the full data of our 3D extinction maps of the southern sky. Each row of the file contains the extinction profile for one line of sight: Galactic coordinates l, b along with the extinction values at the individual distances A_{r,0 kpc} (defined as 0 mag), A_{r,0.2 kpc}, A_{r,0.4 kpc}, A_{r,0.6 kpc}, A_{r,0.8 kpc} ... A_{r,5.8 kpc}, A_{r,6.0 kpc} and respective uncertainties.
+The file 'SkyMapperAr.fits' is the full data of our 3D extinction maps of the southern sky. Each row of the file contains the extinction profile for one line of sight: Galactic coordinates l, b along with the extinction values at the individual distances A_{r,0 kpc} (defined as 0 mag), A_{r,0.2 kpc}, A_{r,0.4 kpc}, A_{r,0.6 kpc}, A_{r,0.8 kpc} ... A_{r,5.8 kpc}, A_{r,6.0 kpc} and respective uncertainties.
 
 ## Query the 3D extinction maps
 

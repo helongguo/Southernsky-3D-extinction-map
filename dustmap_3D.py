@@ -46,7 +46,7 @@ def allskydust_map(l,b,d):
 		l0=L[index2]
 		b0=B[index2]
 		ebv0=ebv[index2]
-		dismin=(l0-l)**2+(b0*np.cos(np.radians(b0))-b*np.cos(np.radians(b)))**2
+		dismin=(b0-b)**2+(l0*np.cos(np.radians(b0))-l*np.cos(np.radians(b)))**2
 		index3=np.where(dismin==np.min(dismin))
 		l=l0[index3]
 		b=b0[index3]

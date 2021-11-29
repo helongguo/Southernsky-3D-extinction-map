@@ -26,7 +26,7 @@ which will return
 ```
 ebv = 0.143
 ```
-
+A new version that is easier and faster to use：https://github.com/helongguo/dustmaps_guo2021 
 ## Additional dataset
 
 ### Extinction values of 17 million stars 
